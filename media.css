@@ -1,0 +1,30 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .footer {
+    background-image: linear-gradient(
+      143.64deg,
+      hsl(241deg 64% 65%) 22.8%,
+      hsl(241deg 41% 52%) 96.58%
+    );
+    margin-top: 30rem;
+  }
+  .footer-msg-cotainer {
+    position: absolute;
+    top: -30%;
+  }
+  .footer-nav {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .footer-msg-cotainer {
+    width: 90%;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer-nav {
+    flex-direction: column;
+  }
+}
