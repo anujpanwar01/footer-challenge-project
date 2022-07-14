@@ -13,18 +13,45 @@
   .footer-msg-cotainer {
     position: absolute;
     top: -30%;
-  }
-  .footer-nav {
-    margin-top: 6rem;
+    width: 80%;
   }
 }
 @media (max-width: 56.25em) {
   .footer-msg-cotainer {
     width: 90%;
   }
+  .footer-container {
+    max-width: 75rem;
+  }
 }
 @media (max-width: 37.5em) {
+  .footer {
+    padding: 6rem 3rem 2rem;
+  }
+  .footer-container {
+    width: 100%;
+  }
   .footer-nav {
     flex-direction: column;
+
+    width: 100%;
+  }
+  .footer-social-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 0;
+  }
+  .footer-social-links {
+    margin-bottom: 2rem;
+  }
+  .footer-msg-cotainer {
+    padding: 2rem;
+    top: -7%;
+  }
+  .footer-column:first-child {
+    margin-right: 0;
+  }
+  .footer-msg-text {
+    font-size: 1.6rem;
   }
 }
